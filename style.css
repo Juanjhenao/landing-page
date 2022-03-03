@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+.fondo{
+    color: white;
+    background-color: #1F2937;
+    overflow: hidden;
+}
+
