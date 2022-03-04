@@ -29,8 +29,12 @@ body li{
     margin-right: 15px;
 }
 body a {
+    transition: 0.3s ease;
     color: white;
     text-decoration: none;
+}
+body a:hover{
+    color: #38b0f6;
 }
 .titulo{
     font-size: 48px;
@@ -45,7 +49,7 @@ body a {
     width: 200px;
     height: 300px;
     margin: 50px;
-    margin-left: 60px;
+    margin-left: 120px;
 }
 .flexbox{
     display: flex;
@@ -58,6 +62,7 @@ body a {
     align-items: flex-start;
 }
 .boton{
+    transition:background-color 0.3s ease;
     background-color: #3882f6;
     color: white;
     border-radius: 8px;
@@ -67,4 +72,51 @@ body a {
     font-size: medium;
     border: 0px;
     margin-top: 15px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: #38b0f6
+}
+
+.t2{
+    font-size: 38px;
+    text-align: center;
+    color: #1F2937;
+    margin: 50px;
+}
+.hidde{
+    cursor: default;
+}
+.pics img{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.fondo2{
+    background-color: #e5e7eb;
+    overflow: hidden;
+}
+.frase{
+    font-size: 36px;
+    font-style: italic;
+    margin: 0px;
+    margin-top: 80px;
+    color: #1F2937;
+}
+.author{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: end;
+    font-style: italic;
+    color: #1f2937;
+    margin-right: 110px;
+    margin-top: 0px;
+    margin-bottom: 70px;
 }
