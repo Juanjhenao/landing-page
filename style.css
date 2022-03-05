@@ -44,12 +44,14 @@ body a:hover{
 .txt
 {
     margin: 0px;
+    color: white;
 }
 .banner{
     width: 200px;
     height: 300px;
     margin: 50px;
     margin-left: 120px;
+    border-radius: 20px;
 }
 .flexbox{
     display: flex;
@@ -119,4 +121,28 @@ body a:hover{
     margin-right: 110px;
     margin-top: 0px;
     margin-bottom: 70px;
+}
+#bor{
+    border: 2px solid white;
+    margin: 20px;
+}
+.box{
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6 ;
+    border-radius: 5px;
+}
+.bold{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 30px;
+}
+.centro
+{
+    text-align: center;
+    margin: 25px;
+    font-size: 20px;
 }
